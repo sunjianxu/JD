@@ -1,0 +1,54 @@
+/* 页面的基础类 */
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+    margin:0;
+    padding: 0;
+
+}
+body {
+    background-color: #f6f6f6;
+    font-family:Microsoft YaHei
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: #c81623!important;
+}
+i {
+    font-style: normal;
+}
+ul {
+    list-style: none;
+}
+input,button{
+    border: none;
+    outline: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    display: table;
+    content: " ";
+}
+.clearfix {
+    clear: both;
+    zoom: 1;
+}
+
+
+.main-color {
+    color: #f10215 !important;
+}
+
+/* 版心的宽度 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}

@@ -1,0 +1,198 @@
+/* 页面头部的样式 */
+/* 头部的广告 start */
+.hearder {
+    height: 80px;
+}
+.hearder-add {
+    height: 80px;
+    background-color: #000000;
+}
+.hearder-add a {
+    display: block;
+    
+}
+.hearder-add a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* 头部的广告 end */
+
+/* 快速导航 start */
+.nav{
+    height: 30px;
+    line-height: 30px;
+    color: #999999;
+    font-size: 12px;
+    background-color: #e3e4e5;
+}
+.nav .container {
+    height: 30px;
+}
+.address {
+    margin-left: 210px;
+}
+.address .map {
+    font-size: 16px;
+    margin-right: 5px;
+}
+.quick li {
+    float: left;
+    
+}
+.quick .icon-nav {
+    font-size: 14px;
+}
+.quick .split {
+    margin: 0 15px;
+    color: #cccccc;
+}
+.quick li a {
+    color: #999999;
+}
+.quick .main-color {
+    margin-left: 7px;
+}
+.iphone-jd {
+    position: relative;
+    padding-right: 11px;
+}
+.quick .qr-code {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 66px;
+    height: 66px;
+    border: 1px solid #cfcfcf;
+    padding: 4px 3px;
+    background: url(../images/59a51cafN0fec6121.png) no-repeat center;
+   
+}
+/* 快速导航 end */
+
+/* search start */
+.search-dist {
+    height: 140px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 190px;
+    height: 170px;
+    background-color: #fff;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+.logo a,.logo a img {
+    display: block;
+}
+.search {
+    position: absolute;
+    left: 320px;
+    top: 25px;
+    width: 550px;
+    height: 35px;
+}
+.search-input {
+    width: 486px;
+    height: 33px;
+    border: 1px solid #f10215;
+    position: relative;
+    font-size: 14px;
+    padding-left: 12px;
+}
+.search-btn {
+    width: 50px;
+    height: 35px;
+    background-color: #f10215;
+}
+.search-wrapper {
+    position: relative;
+    width: 500px;
+    height: 35px;
+}
+.icon-camera {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    font-size: 14px;
+    color: #c0bcbc;
+}
+.icon-search {
+    color: #fff;
+    font-size: 18px !important;
+}
+.shopcart {
+    position: absolute;
+    right: 99px;
+    top: 25px;
+    width: 188px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e3e4e5;
+    font-size: 0px;
+    color: #fff;
+    text-align: center;
+    background-color: #fff;
+}
+.icon-shopcart {
+    font-size: 16px!important;
+}
+.shopcart .text {
+    font-size: 14px;
+    margin: 0 10px 0 12px;
+}
+.shop-num {
+    position: absolute;
+    right: 34px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #f10215;
+    color: #fff!important;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+.hot-text {
+    position: absolute;
+    left: 320px;
+    top: 70px;
+}
+.hot-text li {
+    float: left;
+    padding-right: 10px;
+
+}
+.hot-text li a {
+    font-size: 14px;
+    color: #999;
+}
+.navgation {
+    position: absolute;
+    left: 230px;
+    bottom: 0;
+    height: 28px;
+  
+
+}
+.navgation  li {
+    float: left;
+    padding-right: 31px;
+}
+.navgation  li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+}
+.favourable {
+    position: absolute;
+    right: 0;
+    bottom:10px;
+}
+.favourable a,.favourable a  img {
+    display: block;
+}
+/* search end */

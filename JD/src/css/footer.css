@@ -1,0 +1,179 @@
+/* 页面底部的样式 */
+.footer {
+    height: 566px;
+    background-color: #eaeaea;
+    margin-top: 40px;
+}
+
+.slogan-wrapper {
+    padding-top: 29px;
+    height: 73px;
+    border-bottom: 1px solid #dedede;
+}
+.slogan {
+    padding-left: 37px;
+    height: 73px;
+   
+}
+.slogan-wrapper li {
+    width: 296px;
+    height: 45px;
+    line-height: 47px;
+    float: left;
+    font-size: 0;
+}
+.slogan-wrapper .slogan-li{
+    width: 264px;
+}
+.slogan-wrapper li i {
+    margin-right: 10px;
+    float: left;
+    width: 36px;
+    height: 42px;
+    background: url(../images/slogan.png) no-repeat;
+}
+.slogan-wrapper li:nth-child(1) i {
+    background-position: 0 0;
+}
+.slogan-wrapper li:nth-child(2) i {
+    background-position: 0 -43px;
+}
+.slogan-wrapper li:nth-child(3) i {
+    background-position: 0 -86px;
+}
+.slogan-wrapper li:nth-child(4) i {
+    background-position: 0 -129px;
+}
+.slogan-wrapper li h5 {
+    font-size: 16px;
+    color: #444444;
+    float: left;
+}
+.service {
+    margin-top: 25px;
+    height: 201px;
+
+}
+.service .container {
+    height: 200px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.service dl {
+    width: 199px;
+    float: left;
+}
+.service dl dt {
+    height: 28px;
+    font-weight:700;
+    font-size: 14px;
+    color: #666666;
+}
+.service dl dd {
+    height: 22px;
+   
+    
+}
+.service dl dd a {
+ display: block;
+ color: #666666;
+ font-size: 12px;
+}
+
+.footer-map {
+    width: 195px;
+    height: 146px;
+    float: right;
+    background:url(../images/map.png) no-repeat;
+    overflow: hidden;
+}
+.footer-map h5 {
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+.map-text {
+    width: 176px;
+    height: 65px;
+    margin: 23px 0 0 12px;
+}
+.map-text p {
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+}
+.map-text a {
+    font-size: 12px;
+    color: #666;
+    float: right;
+    margin-top: 7px;
+}
+.map-text a i{
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+
+.copyright {
+    margin-top: 19px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.footer-call1 {
+    height: 30px;
+    width: 100%;
+    color: #d1ccd1;
+}
+.footer-call1 a{
+    color: #666;
+}
+.footer-call1 span {
+    margin: 0 11px;
+}
+
+.footer-call2 {
+    height: 22px;
+    color: #d1ccd1;
+}
+.footer-call2 a{
+    color: #666;
+}
+.footer-call2 span {
+    margin: 0 11px;
+}
+
+
+.copy-right-brand {
+    margin-top: 7px;
+   display: inline-block;
+}
+.copy-right-brand a {
+    display: block;
+    float: left;
+    width: 103px;
+    height: 32px;
+    margin-right: 10px;
+    background: #ddd;
+    background: url(../images/map.png) no-repeat;
+    overflow: hidden;
+}
+.copy-right-brand a:nth-child(1) {
+   background-position: 0 -151px;
+}
+.copy-right-brand a:nth-child(2) {
+   background-position: -104px -151px;
+}
+.copy-right-brand a:nth-child(3) {
+   background-position: 0px -184px;
+}
+.copy-right-brand a:nth-child(4) {
+   background-position: -104px -184px;
+}
+.copy-right-brand a:nth-child(5) {
+   background-position: left bottom;
+}
+.copy-right-brand a.last-a {
+    margin-right:0; 
+    background-position: right bottom;
+}
